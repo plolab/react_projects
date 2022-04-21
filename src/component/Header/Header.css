@@ -1,0 +1,72 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    z-index: 200;
+}
+
+.Upper_menu_bar {
+    position: relative;
+    height: 63px;
+    top: 27px;
+    display: flex;
+    justify-content: center;
+}
+
+.main_menu {
+    position: absolute;
+
+    width: 800px;
+    height: 58px;
+}
+
+.main_menu .sub_menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main_menu>li {
+    float: left;
+
+}
+
+.main_menu>li>a {
+    display: block;
+    padding: 12px 30px;
+    text-align: center;
+}
+
+.sub_menu {
+    position: absolute;
+    background-color: none;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sub_menu>li {
+    padding: 16px 28px;
+}
+
+.sub_menu>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main_menu>li:hover .sub_menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Group_356 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    position: absolute;
+    width: 104.75px;
+    height: 16.91px;
+    left: 1134px;
+    top: 61px;
+
+}

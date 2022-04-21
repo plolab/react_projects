@@ -1,0 +1,29 @@
+{
+    "artList": [
+        {
+            "id": 1,
+            "title": "crypto punc",
+            "thumbnail": ""
+        },
+        {
+            "id": 2,
+            "title": "crypto punc second edition",
+            "thumbnail": ""
+        },
+        {
+            "id": 3,
+            "title": "Ford Mustang",
+            "thumbnail": ""
+        },
+        {
+            "id": 4,
+            "title": "Newton's Apple",
+            "thumbnail": ""
+        },
+        {
+            "id": 5,
+            "title": "Galaxy X Flip 4",
+            "thumbnail": ""
+        }
+    ]
+}
